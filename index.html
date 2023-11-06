@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CV page</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="assets/dzin.jpg" alt="my_avatar" class="avatar">
+        <h1 class="header__title">Leonid Chaykovskiy | CV</h1>
+        <h2 class="header__subtitle">Frontend Developer</h2>
+    </header>
+
+    <main>
+        <section class="skills">
+            <h3>Skills</h3>
+
+            <details>
+                <summary>Skills list</summary>
+
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>TypeScript</li>
+                </ol>
+            </details>
+        </section>
+
+        <article>
+            <h4 class="article"> Short article about me</h4>
+
+            <p>
+                Далеко-далеко, за словесными горами в стране гласных и согласных живут рыбные тексты. Своих океана всеми
+                города, обеспечивает сбить переписывается? Предложения что диких, власти подзаголовок это вершину назад
+                взгляд жаренные реторический домах предупреждал осталось ее живет путь, залетают пустился, собрал
+                рыбного не языкового всемогущая необходимыми мир своего. Знаках осталось lorem маленькая жизни
+                грамматики?
+            </p>
+        </article>
+
+        <section class="gallery">
+            <h3>Gallery</h3>
+            <img src="assets/wolf.jpeg" alt="" class="avatar">
+            <img src="assets/workherel.jpeg" alt="" class="avatar">
+            <img src="assets/cat.jpg" alt="" class="avatar">
+        </section>
+
+        <hr class="separator">
+
+        <section>
+            <iframe class="video" src="https://www.youtube.com/embed/xVWeRnStdSA" title="Cat saying Huh!"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </section>
+
+        <section class="hobbies">
+            <h4> My hobbies </h4>
+
+            <details>
+                <summary>Hobbies</summary>
+
+                <ul>
+                    <li>Gym</li>
+                    <li>Marvel Contest of Champions</li>
+                    <li>Watching anime</li>
+                </ul>
+            </details>
+        </section>
+
+        <hr class="separator">
+
+        <section class="ed">
+            <table class="ed__table">
+                <thead>
+                    <tr>
+                        <th>School / University</th>
+                        <th>Profession</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>IT school 1434</td>
+                        <td>Angular dev</td>
+                        <td>2022</td>
+                    </tr>
+
+                    <tr>
+                        <td>MGTU Stankin</td>
+                        <td>React dev</td>
+                        <td>2026</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="quote">
+            <blockquote>
+                Tell me what, Tell me what you want. I don't know why, don't know why you afraid.
+            </blockquote>
+            <blockquote>
+                It's too late...
+            </blockquote>
+        </section>
+
+        <section class="interaction">
+            <form action="https://i.pinimg.com/736x/e5/68/3b/e5683bb4b15886d2aa571b7ba499624e.jpg" method="get"
+                class="form" target="_blank">
+                <fieldset>
+                    <legend>Required fields</legend>
+
+                    <label for="firstName-id">First Name: </label>
+                    <input type="text" name="firstName" id="firstName-id" required class="form__control"
+                        placeholder="your first name">
+
+                    <label for="lastName-id">Last Name: </label>
+                    <input type="text" name="lastName" id="lastName-id" required class="form__control"
+                        placeholder="your last name">
+
+                    <label for="email-id">Email</label>
+                    <input type="email" name="email" id="email-id" required class="form__control"
+                        placeholder="your email">
+
+                </fieldset>
+
+                <br>
+                <textarea name="questions" cols="30" rows="7" class="form__control control__text"
+                    placeholder="your questions"></textarea>
+
+                <button type="submit" class="form__submit">Submit</button>
+
+                <br>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <address>
+            <a href="mailto:chaylleeo@gmail.com" class="contacts__link">chaylleeo@gmail.com</a>
+            <br><br>
+            <a href="tel:+79167367807" class="contacts__link">+79167367807</a>
+        </address>
+    </footer>
+
+</body>
+
+</html>
