@@ -4,9 +4,9 @@
 
 ```
     Semantic tags
-    1. one
-    2. two
-    3. three
+    1. HTML
+    2. CSS
+    3. JavaScript
 ```
 [CV Page Repository](https://github.com/chaylleeo/cv_page_frontender)
 
